@@ -1,0 +1,48 @@
+﻿<Window x:Class="_031_Button.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_031_Button"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="250">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" MinWidth="250">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="50" Height="50" Margin="5">
+                <StackPanel>
+                    <Rectangle Fill="Red" Width="25" Height="25"/>
+                    <TextBlock Text="Red" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Width="50" Height="50" Margin="5">
+                <StackPanel>
+                    <Rectangle Fill="Green" Width="25" Height="25"/>
+                    <TextBlock Text="Green" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Width="50" Height="50" Margin="5">
+                <StackPanel>
+                    <Rectangle Fill="Blue" Width="25" Height="25"/>
+                    <TextBlock Text="Blue" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <Button FontWeight="Bold" FontSize="20" Margin="30" Height="100" MinWidth="190">
+             <WrapPanel>
+                <TextBlock Foreground="Blue"> Multi</TextBlock>
+                <TextBlock Foreground="Red"> Clolor</TextBlock>
+                <TextBlock> Button</TextBlock>
+            </WrapPanel>
+        </Button>
+        <UniformGrid Height="200" Width="200">
+            <Rectangle Fill="Red"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="Red"/>
+        </UniformGrid>
+
+    </StackPanel>
+    
+</Window>
