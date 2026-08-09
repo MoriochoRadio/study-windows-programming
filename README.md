@@ -1,5 +1,7 @@
 # study-windows-programming — Windows 프로그래밍 학습 아카이브
 
+🇰🇷 한국어 · 🇬🇧 [English](README.en.md)
+
 > Windows 데스크톱 응용 프로그래밍 한 학기 학습의 결과물입니다. 같은 BMI 문제를 **C / C++ / C# Console / C# WinForms** 4가지로 풀어보며 시작해, WinForms 기본 컴포넌트 → 차트·시계 → 외부 DB(Firebase, MySQL) 연동 → WPF 전환 → 게임까지 점진적으로 확장한 34 챕터의 기록입니다.
 
 ---
