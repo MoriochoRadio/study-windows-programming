@@ -16,7 +16,7 @@ namespace _022_FireBase
         //Firebase를 사용하기 위해 주소와 비밀번호를 입력한다
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "NreYnAXcCpLwYnQFBlIB4zhWaqVt63lt5jmjOCLH",
+            AuthSecret = "<FIREBASE_AUTH_SECRET>",
             BasePath = "https://vp2024-d817e-default-rtdb.firebaseio.com/"
         };
 
